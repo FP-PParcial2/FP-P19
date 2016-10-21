@@ -16,18 +16,18 @@ public class FPP19 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // DECLARAR VARIABLE 
         int a;
        a=Angulo();
        convertir(a);
     }
-    public static int Angulo(){
+    public static int Angulo(){//METODO INTRODUCIR ANGULO
         Scanner teclado=new Scanner(System.in);
         System.out.println("Introduce Angulo");
         int an=teclado.nextInt();
         return an;
     }
-    public static void convertir(int a){
+    public static void convertir(int a){//CALCULAR FUNCIONES TRIGO  DEL ANGULO E IMPRIMIR
         
        double b = Math.toRadians(a);
         double r=Math.tan(a);
